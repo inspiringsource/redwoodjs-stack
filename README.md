@@ -1,5 +1,7 @@
 ### Progress
 
+chap 5: https://redwoodjs.com/docs/tutorial/chapter5/storybook
+
 chap 4: https://redwoodjs.com/docs/tutorial/chapter4/deployment#netlify
 
 chap 3: https://youtu.be/b0x8an_UZ98
