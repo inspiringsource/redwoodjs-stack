@@ -4,6 +4,11 @@ chap 4: https://redwoodjs.com/docs/tutorial/chapter4/deployment#netlify
 
 chap 3: https://youtu.be/b0x8an_UZ98
 
+### RedwoodJS On Heroku
+
+https://community.redwoodjs.com/t/self-host-on-heroku/1765
+
+
  README
 
 Welcome to [RedwoodJS](https://redwoodjs.com)!
