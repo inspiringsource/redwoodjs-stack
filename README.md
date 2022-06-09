@@ -1,6 +1,6 @@
 ### Progress
 
-chap 4: https://redwoodjs.com/docs/tutorial/chapter4/authentication
+chap 4: https://redwoodjs.com/docs/tutorial/chapter4/deployment#netlify
 
 chap 3: https://youtu.be/b0x8an_UZ98
 
