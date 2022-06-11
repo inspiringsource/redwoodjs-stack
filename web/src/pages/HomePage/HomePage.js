@@ -44,7 +44,11 @@ const HomePage = () => {
         </div>
         <section className="container flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img">
           <div className="p-5 text-2xl text-white bg-purple-500 rounded-xl">
-            Parralax effect
+            <p className="text-center">&#65085;</p>
+            <br />
+            <p className="text-center">Parralax effect</p>
+            <br />
+            <p className="text-center">&#65086;</p>
           </div>
         </section>
         <div className="max-w-lg m-auto">

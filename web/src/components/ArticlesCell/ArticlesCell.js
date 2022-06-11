@@ -22,7 +22,9 @@ export const Failure = ({ error }) => (
 export const Success = ({ articles }) => {
   return (
     <>
-      <h1 className="text-4xl font font-bold tracking-tight text-gray-900 sm:text-6xl mt-8">Latest News</h1>
+      <h1 className="text-4xl font font-bold tracking-tight text-gray-900 sm:text-6xl mt-8">
+        Latest News
+      </h1>
 
       {articles.map((article) => (
         <Article key={article.id} article={article} />
