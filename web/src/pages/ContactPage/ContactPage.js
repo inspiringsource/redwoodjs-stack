@@ -10,6 +10,7 @@ import {
 } from '@redwoodjs/forms'
 import { toast, Toaster } from '@redwoodjs/web/toast'
 import { MetaTags, useMutation } from '@redwoodjs/web'
+import '../../index.css'
 
 const CREATE_CONTACT = gql`
   mutation CreateContactMutation($input: CreateContactInput!) {
@@ -48,6 +49,7 @@ const ContactPage = () => {
           Name
         </Label>
         <TextField
+          className="border border-black"
           name="name"
           validation={{ required: true }}
           errorClassName="error"
@@ -59,6 +61,7 @@ const ContactPage = () => {
           Email
         </Label>
         <TextField
+          className="border border-black"
           name="email"
           validation={{
             required: true,
@@ -76,12 +79,16 @@ const ContactPage = () => {
           Message
         </Label>
         <TextAreaField
+          className="border border-black"
           name="message"
           validation={{ required: true }}
           errorClassName="error"
         />
         <FieldError name="message" className="error" />
-        <Submit disabled={loading}>Save</Submit>
+        <br />
+        <Submit className="border border-black py-1 px-2" disabled={loading}>
+          Send
+        </Submit>
       </Form>
     </>
   )
