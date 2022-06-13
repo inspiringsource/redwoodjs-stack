@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <>
       <MetaTags title="Home" description="Home page" />
-      <div>
+      <div className="pt-12">
         <header className="p-24 h-[28rem] mb-12 bg-fixed bg-center bg-cover custom-img">
           <div className="text-white bg-purple-500 rounded-[32px] relative h-64 w-64">
             <h1 className="py-16 px-12 text-center text-4xl">

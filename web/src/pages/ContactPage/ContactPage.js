@@ -37,7 +37,12 @@ const ContactPage = () => {
       <MetaTags title="Contact" description="Contact page" />
 
       <Toaster />
+      <p className="pt-48 p-8 py-4 px-6 text-4xl text-center">
+        To learn more about our company, or to find information on this site,
+        please do not hesitate to contact me.
+      </p>
       <Form
+        className="flex flex-col items-center justify-center pt-[30px]"
         onSubmit={onSubmit}
         config={{ mode: 'onBlur' }}
         error={error}
