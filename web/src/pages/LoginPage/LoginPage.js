@@ -63,7 +63,7 @@ const LoginPage = () => {
                   </Label>
                   <TextField
                     name="username"
-                    className="rw-input"
+                    className="rw-input border-solid border-2 border-black"
                     errorClassName="rw-input rw-input-error"
                     ref={usernameRef}
                     validation={{
@@ -85,7 +85,7 @@ const LoginPage = () => {
                   </Label>
                   <PasswordField
                     name="password"
-                    className="rw-input"
+                    className="rw-input border-solid border-2 border-black"
                     errorClassName="rw-input rw-input-error"
                     autoComplete="current-password"
                     validation={{

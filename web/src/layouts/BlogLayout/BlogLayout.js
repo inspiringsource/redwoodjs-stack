@@ -1,5 +1,6 @@
 import { useAuth } from '@redwoodjs/auth'
 import { Link, navigate, routes } from '@redwoodjs/router'
+import { Button } from '@material-tailwind/react'
 import Logo from 'web/public/uni-logo.png'
 const BlogLayout = ({ children }) => {
   const { isAuthenticated, currentUser, logOut } = useAuth()
@@ -14,48 +15,56 @@ const BlogLayout = ({ children }) => {
             alt="logo"
           />
           <ul className="flex items-center px-6 space-x-4 py-8">
-            <button
+            <Button
               onClick={() => navigate(routes.home())}
-              className="w-20 h-14 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+              className="w-20 h-14 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded "
             >
               <li>
                 <Link to={routes.home()}>Home</Link>
               </li>
-            </button>
-            <button
+            </Button>
+            <Button
               onClick={() => navigate(routes.about())}
               className="w-20 h-14 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
             >
               <li>
                 <Link to={routes.about()}>About</Link>
               </li>
-            </button>
-            <button
+            </Button>
+            <Button
               onClick={() => navigate(routes.events())}
               className="w-20 h-14 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
             >
               <li>
                 <Link to={routes.events()}>Events</Link>
               </li>
-            </button>
-            <button
+            </Button>
+            <Button
               onClick={() => navigate(routes.contact())}
-              className="w-24 h-14 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+              className="w-24 h-14 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded "
             >
               <li>
                 <Link to={routes.contact()}>Contact</Link>
               </li>
-            </button>
+            </Button>
             <div className="absolute right-0 h-16 w-16 pt-6">
               {isAuthenticated ? (
                 <div>
                   <span>Logged in as {currentUser.email}</span>{' '}
-                  <button type="button" onClick={logOut}>
+                  <Button type="button" onClick={logOut}>
                     Logout
-                  </button>
+                  </Button>
                 </div>
               ) : (
-                <Link to={routes.login()}>Login</Link>
+                <Button
+                  variant="outlined"
+                  onClick={() => navigate(routes.login())}
+                  className="w-12 h-6 text-white py-1 px-1 text-xs"
+                >
+                  <li>
+                    <Link to={routes.events()}>Login</Link>
+                  </li>
+                </Button>
               )}
             </div>
           </ul>
