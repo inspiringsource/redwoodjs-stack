@@ -7,8 +7,8 @@ const AboutPage = () => {
       <div className="pt-48">
         <h1 className="py-4 px-6 text-4xl font-bold">About</h1>
         <p className="p-8">
-          Full-stack Redwood app using: React, GraphQL (GraphQL Yoga + Envelop +
-          Apollo Client), Prisma, Babel, Webpack, and more.
+          Full-stack app using: React, GraphQL (GraphQL Yoga + Envelop + Apollo
+          Client), Prisma, Babel, Webpack, and more.
         </p>
       </div>
     </>
