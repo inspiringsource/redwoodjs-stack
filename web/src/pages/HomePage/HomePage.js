@@ -6,7 +6,7 @@ const HomePage = () => {
       <MetaTags title="Home" description="Home page" />
       <div className="pt-12">
         <header className="p-24 h-[28rem] mb-12 bg-fixed bg-center bg-cover custom-img">
-          <div className="text-white bg-purple-500 rounded-[32px] relative h-64 w-64">
+          <div className="text-white bg-green-900 rounded-[32px] relative h-64 w-64">
             <h1 className="py-16 px-12 text-center text-4xl">
               Great User Experience! &raquo;
             </h1>
@@ -43,7 +43,7 @@ const HomePage = () => {
           </p>
         </div>
         <section className="container flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img">
-          <div className="p-5 text-2xl text-white bg-purple-500 rounded-xl">
+          <div className="p-5 text-2xl text-white bg-green-900 rounded-xl">
             <p className="text-center">&#65085;</p>
             <br />
             <p className="text-center">Parralax effect</p>
