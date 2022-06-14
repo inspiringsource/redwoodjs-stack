@@ -61,7 +61,7 @@ const BlogLayout = ({ children }) => {
                 <Button
                   variant="outlined"
                   onClick={() => navigate(routes.login())}
-                  className="w-12 h-6 text-white py-1 px-1 text-xs hover:bg-purple-600"
+                  className="w-12 h-6 text-white py-1 px-1 text-xs hover:text-black hover:bg-white"
                 >
                   <li>
                     <Link to={routes.events()}>Login</Link>
@@ -73,6 +73,37 @@ const BlogLayout = ({ children }) => {
         </nav>
       </header>
       <main className="p-12">{children}</main>
+      <footer className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 h-6">
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          © 2022{' '}
+          <a href="/" className="hover:underline">
+            Demo
+          </a>
+          . All Rights Reserved.
+        </span>
+        <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li>
+            <Link href="#" className="mr-4 hover:underline md:mr-6 ">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="mr-4 hover:underline md:mr-6">
+              Privacy Policy
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="mr-4 hover:underline md:mr-6">
+              Licensing
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="hover:underline">
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </footer>
     </>
   )
 }
