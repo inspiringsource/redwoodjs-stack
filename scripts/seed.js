@@ -6,7 +6,7 @@ export default async () => {
     // Manually seed via `yarn rw prisma db seed`
     // Seeds automatically with `yarn rw prisma migrate dev` and `yarn rw prisma migrate reset`
     //
-    // Update "const data = []" to match your data model and seeding needs
+    // Update "const data = []" to match your data model and seeding needs (done)
     //
     const data = [
       // To try this example data with the UserExample model in schema.prisma,

@@ -1,3 +1,4 @@
+//default path
 const { getPaths } = require('@redwoodjs/internal')
 
 module.exports = {
