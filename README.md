@@ -1,9 +1,12 @@
 Welcome to [RedwoodJS](https://redwoodjs.com)!
 
-> **Prerequisites**
->
-> - Redwood requires [Node.js](https://nodejs.org/en/) (>=14.19.x <=16.x) and [Yarn](https://yarnpkg.com/) (>=1.15)
-> - Are you on Windows? For best results, follow our [Windows development setup](https://redwoodjs.com/docs/how-to/windows-development-setup) guide
+This is a demo website built with RedwoodJS an opinionated, full-stack, serverless web framework:
+Full-stack app using: React, GraphQL (GraphQL Yoga + Envelop + Apollo Client), Prisma, Babel, Webpack, TailwindCss
+
+<p align="center">
+    <img src="./prototyping/Design - screenshot.png" alt="Screenshot" width=350px />
+</p>
+
 
 Start by installing dependencies:
 
