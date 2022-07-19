@@ -1,7 +1,7 @@
 Welcome to [RedwoodJS](https://redwoodjs.com)!
 
 This is a demo website built with RedwoodJS an opinionated, full-stack, serverless web framework:
-Full-stack app using: React, GraphQL (GraphQL Yoga + Envelop + Apollo Client), Prisma, Babel, Webpack, TailwindCss
+Full-stack app using: React, GraphQL (GraphQL Yoga + Envelop + Apollo Client), Prisma, Babel, Webpack, TailwindCss on Netlify and Railway.
 
 <p align="center">
     <img src="./prototyping/Design - screenshot.png" alt="Screenshot" width=350px />
